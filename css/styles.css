@@ -542,12 +542,8 @@ footer {
 }
 .playground-image {
   margin-top: 4px;
-  margin-bottom: 4px;
-  float: left;
-  vertical-align: middle;
-  max-width: 300px;
   width: 33%;
-  height: auto;
+  text-align: center;
 }
 .playground-image img {
   max-width: 300px;
