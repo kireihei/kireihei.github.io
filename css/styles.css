@@ -457,7 +457,7 @@ footer {
 .project {
   position: relative;
   max-width: 900px;
-  max-height: 500px;  //project container max height
+  max-height: 400px;  <!-- project container max height -->
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
