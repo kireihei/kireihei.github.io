@@ -540,6 +540,7 @@ footer {
 }
 .playground-image {
   float: left;
+  display: none;
 }
 .playground-image img {
   max-height:300px;
@@ -548,7 +549,9 @@ footer {
 }
 .playground-info {
   position: absolute;
-  top: 50%;
+  margin: 0;
+  padding: 30px 15px;
+  top: auto;
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 15px;
