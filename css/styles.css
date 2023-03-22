@@ -466,10 +466,9 @@ footer {
   float: left;
 }
 .project-image img {
-  max-width:100%;
-  max-height:400px;
+  max-height:300px;
+  overflow: hidden;
   width:auto;
-  height:auto;
 }
 .project-info {
   position: absolute;
