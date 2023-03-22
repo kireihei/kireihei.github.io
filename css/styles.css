@@ -543,18 +543,17 @@ footer {
   display: none;
 }
 .playground-image img {
-  max-height:300px;
+  max-width:300px;
   overflow: hidden;
-  width:auto;
+  height:auto;
 }
 .playground-info {
   position: absolute;
   margin: 0;
   padding: 30px 15px;
   top: auto;
-  transform: translateY(-50%);
+  transform: None;
   margin-left: 300px;
-  padding: 15px;
 }
 .playground-info h3 {
   font-size: 1.5em;
@@ -572,9 +571,6 @@ footer {
   margin: 0;
   padding: 30px 15px;
   transform: none;
-}
-#more-playground {
-  display: none;
 }
 #contact {
   padding: 50px 15px;
