@@ -543,9 +543,9 @@ footer {
   display: none;
 }
 .playground-image img {
-  max-width:300px;
+  max-height:300px;
   overflow: hidden;
-  height:auto;
+  width:auto;
 }
 .playground-info {
   position: absolute;
