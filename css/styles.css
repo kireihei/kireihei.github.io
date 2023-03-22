@@ -532,8 +532,9 @@ footer {
   text-align: center;
 }
 .playground {
+  display: flex;
   position: relative;
-  max-width: 350px;
+  max-width: 900px;
   margin: 0 auto 30px auto;
   overflow: hidden;
   background: #fff;
@@ -542,11 +543,14 @@ footer {
 .playground-image {
   margin-top: 4px;
   margin-bottom: 4px;
+  float: left;
   vertical-align: middle;
-  max-width: 800px;
+  max-width: 300px;
+  width: 33%;
+  height: auto;
 }
 .playground-image img {
-  width: 350px;
+  max-width: 300px;
   height: auto;
   overflow: hidden;
 }
