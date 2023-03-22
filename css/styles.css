@@ -537,7 +537,7 @@ footer {
   max-width: 900px;
   margin: 0 auto 30px auto;
   overflow: hidden;
-  background: #fff;
+  background: #feb872;
   border-radius: 4px;
 }
 .playground-image {
@@ -550,8 +550,11 @@ footer {
   height: auto;
   overflow: hidden;
 }
-.playground-image p {
-  text-align: center;
+.playground-image h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+  margin: 0 0 15px 0;
 }
 #contact {
   padding: 50px 15px;
