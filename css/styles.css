@@ -552,12 +552,10 @@ footer {
   margin: 2px;
   width: 33%;
   text-align: center;
-  overflow:hidden;
 }
 .playground-image img {
   max-width: 100%;
   height: auto;
-  overflow: hidden;
 }
 .playground-image img:hover {
   animation: move .4s linear forwards;
