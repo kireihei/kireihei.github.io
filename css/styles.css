@@ -552,7 +552,7 @@ footer {
 }
 .playground-image h3 {
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: bold;
   color: #374054;
   margin: 0 0 15px 0;
 }
