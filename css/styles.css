@@ -559,6 +559,7 @@ footer {
   margin: 2px;
   width: 33%;
   text-align: center;
+  border-radius: 2px;
 }
 .playground-image img {
   max-width: 100%;
