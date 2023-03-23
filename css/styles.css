@@ -54,6 +54,14 @@ body.active {
     transform: translateY(0);
   }
 }
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
 header {
   position: absolute;
   top: 0;
@@ -550,6 +558,9 @@ footer {
   max-width: 100%;
   height: auto;
   overflow: hidden;
+}
+.playground-image img:hover {
+  animation: move .4s linear forwards;
 }
 .playground-image h3 {
   font-size: 1.1em;
