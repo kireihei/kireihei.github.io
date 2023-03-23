@@ -574,6 +574,9 @@ footer {
   color: #374054;
   margin: 20px 0 5px 0;
 }
+.playground-image p {
+  color: #00afb9;
+}
 #contact {
   padding: 50px 15px;
   background: #00afb9;
