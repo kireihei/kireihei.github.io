@@ -563,7 +563,7 @@ footer {
 .playground-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .playground-image img:hover {
   animation: move .4s linear forwards;
