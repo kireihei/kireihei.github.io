@@ -556,8 +556,8 @@ footer {
   border-radius: 4px;
 }
 .playground-image {
-  margin: 5px;
-  width: 24.7%;
+  margin: 4.5px;
+  width: 24%;
   text-align: center;
 }
 .playground-image img {
@@ -569,10 +569,10 @@ footer {
   animation: move .4s linear forwards;
 }
 .playground-image h3 {
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
   color: #374054;
-  margin: 20px 0 5px 0;
+  margin: 10px 0 2px 0;
 }
 .playground-image p {
   color: #00afb9;
