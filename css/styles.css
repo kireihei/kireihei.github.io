@@ -25,17 +25,17 @@ body.active {
   border: 1px solid #dcd9d9;
 }
 .no-js #experience-timeline > div h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
   color: #374054;
   display: inline-block;
   margin: 0;
 }
 .no-js #experience-timeline > div h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 300;
   color: #7e8890;
-  margin: 0 0 15px 0;
+  margin: 0 0 10px 0;
 }
 .no-js #experience-timeline > div p {
   color: #74808a;
