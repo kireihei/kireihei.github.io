@@ -465,13 +465,12 @@ footer {
   border-radius: 4px;
 }
 .project-image {
-  width: 30%;
+  width: 33%;
   float: left;
   overflow: hidden;
 }
 .project-image img {
-  max-height:300px;
-  overflow: hidden;
+  max-height:100%;
   width:auto;
 }
 .project-info {
