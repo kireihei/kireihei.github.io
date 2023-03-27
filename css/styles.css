@@ -275,12 +275,14 @@ footer {
   z-index: 1;
 }
 #lead-down {
+  display: flex;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 15px;
   width: 100%;
   text-align: center;
+  justify-content: center;
   z-index: 10;
   color: #fff;  
 }
