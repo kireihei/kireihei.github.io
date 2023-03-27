@@ -480,7 +480,9 @@ footer {
   border-radius: 4px;
 }
 .project-image {
+  width: 30%;
   float: left;
+  overflow: hidden;
 }
 .project-image img {
   max-height:300px;
@@ -577,14 +579,14 @@ footer {
   animation: move .4s linear forwards;
 }
 .playground-image h3 {
-  font-size: 14rem;
+  font-size: 16rem;
   font-weight: bold;
   color: #374054;
   margin: 8px 0 2px 0;
 }
 .playground-image p {
   color: #00afb9;
-  font-size: 10rem;
+  font-size: 12rem;
 }
 #contact {
   padding: 50px 15px;
