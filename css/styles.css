@@ -288,14 +288,15 @@ footer {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  width: 70px;
-  height: 70px;
+  width: 73px;
+  height: 73px;
   border-radius: 50%;
-  border: 3px solid #a0cfee;
+  border: 2px solid #a0cfee;
   text-align: center;
 }
 #lead-down img {
-  max-height: 100%;
+  width: 70px;
+  height: 70px;
   display: flex;
   border-radius: 50%;
   align-items: center;
