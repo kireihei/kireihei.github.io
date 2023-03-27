@@ -579,14 +579,14 @@ footer {
   animation: move .4s linear forwards;
 }
 .playground-image h3 {
-  font-size: 16rem;
+  font-size: 1rem;
   font-weight: bold;
   color: #374054;
   margin: 8px 0 2px 0;
 }
 .playground-image p {
   color: #00afb9;
-  font-size: 12rem;
+  font-size: 0.8rem;
 }
 #contact {
   padding: 50px 15px;
