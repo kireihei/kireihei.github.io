@@ -287,7 +287,7 @@ footer {
 }
 #lead-down span {
   display: block;
-  margin: 10px auto;
+  margin: 0;
   width: 73px;
   height: 73px;
   border-radius: 50%;
@@ -564,14 +564,14 @@ footer {
   animation: move .4s linear forwards;
 }
 .playground-image h3 {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #374054;
   margin: 8px 0 2px 0;
 }
 .playground-image p {
   color: #00afb9;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 #contact {
   padding: 50px 15px;
