@@ -284,12 +284,21 @@ footer {
   bottom: 15px;
   color: #fff;
 }
+#lead-down img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 #lead-down span {
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   border: 3px solid #a0cfee;
   text-align: center;
