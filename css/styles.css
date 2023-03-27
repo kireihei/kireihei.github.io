@@ -276,6 +276,7 @@ footer {
 }
 #lead-down {
   position: absolute;
+  margin-top: 20px;
   left: 0;
   right: 0;
   width: 100%;
@@ -286,7 +287,7 @@ footer {
 }
 #lead-down span {
   display: block;
-  margin: 30px auto;
+  margin: 10px auto;
   width: 73px;
   height: 73px;
   border-radius: 50%;
