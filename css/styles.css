@@ -284,9 +284,9 @@ footer {
   bottom: 15px;
   color: #fff;
 }
-#lead-down span {
+#lead-down div {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 73px;
   height: 73px;
   border-radius: 50%;
