@@ -275,15 +275,15 @@ footer {
   z-index: 1;
 }
 #lead-down {
-  margin-top: 15px;
   position: absolute;
   left: 0;
   right: 0;
+  top: 15px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
-  vertical-align: center;
+  align-items: center;
   z-index: 10;
-  bottom: 15px;
   color: #fff;
 }
 #lead-down span {
