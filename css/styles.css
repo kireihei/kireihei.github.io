@@ -285,7 +285,7 @@ footer {
   color: #fff;  
 }
 #lead-down span {
-  display: block;
+  display: inline-block;
   width: 73px;
   height: 73px;
   border-radius: 50%;
