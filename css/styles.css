@@ -293,6 +293,7 @@ footer {
   border-radius: 50%;
   border: 2px solid #00afb9;
   text-align: center;
+  align-items: center;
 }
 #lead-down img {
   width: 70px;
