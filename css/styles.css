@@ -284,15 +284,6 @@ footer {
   bottom: 15px;
   color: #fff;
 }
-#lead-down img {
-  width: 70px;
-  height: 70px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
 #lead-down span {
   cursor: pointer;
   display: block;
@@ -302,6 +293,14 @@ footer {
   border-radius: 50%;
   border: 3px solid #a0cfee;
   text-align: center;
+}
+#lead-down img {
+  max-height: 100%;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 #lead-down i {
   animation: pulsate 1.5s ease;
