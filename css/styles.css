@@ -770,15 +770,9 @@ footer {
   #lead-content a {
     padding: 10px 20px;
   }
-  #lead-down {
-    display: none;
-  }
   .education-block h3,
   .education-block span {
     float: none;
-  }
-  .project-image {
-    display: none;
   }
   .project-info {
     position: relative;
