@@ -286,6 +286,7 @@ footer {
   align-items: center;
   z-index: 10;
   color: #fff;
+  display: flex;
 }
 #lead-down span {
   display: block;
