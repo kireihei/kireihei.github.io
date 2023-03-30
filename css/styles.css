@@ -278,7 +278,7 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 15px;
+  bottom: -37px;
   width: 100%;
   text-align: center;
   z-index: 10;
@@ -287,16 +287,17 @@ footer {
 #lead-down span {
   display: block;
   margin: 0 auto;
-  width: 73px;
-  height: 73px;
+  width: 74px;
+  height: 74px;
   border-radius: 50%;
-  border: 2px solid #00afb9;
+  border: 3px solid #00afb9;
 }
 #lead-down img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
+  align-items: center;
 }
 #about {
   padding: 75px 15px;
