@@ -278,15 +278,17 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -37px;
+  bottom: 15px;
   width: 100%;
   text-align: center;
   z-index: 10;
   color: #fff;  
 }
 #lead-down span {
-  display: block;
-  margin: 0 auto;
+  display: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 74px;
   height: 74px;
   border-radius: 50%;
