@@ -299,6 +299,7 @@ footer {
   z-index: 1;
 }
 #about {
+  margin-top: -37px;
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
   z-index: 0;
