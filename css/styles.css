@@ -275,7 +275,7 @@ footer {
   z-index: 1;
 }
 #lead-down {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 15px;
@@ -285,9 +285,10 @@ footer {
   color: #fff;  
 }
 #lead-down span {
-  display: absolute;
+  position: absolute;
   bottom: -30px;
   left: 50%;
+  transform: translateX(-50%);
   width: 74px;
   height: 74px;
   border-radius: 50%;
