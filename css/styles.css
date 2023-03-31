@@ -276,24 +276,19 @@ footer {
 }
 #lead-down {
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: -37px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-  color: #fff;  
-}
-#lead-down-image-container {
-  position: relative;
-  display: inline-block;
   width: 74px;
   height: 74px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid #00afb9;
+  z-index: 10;
 }
 #lead-down img {
+  position: relative;
+  bottom: -37px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
