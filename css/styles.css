@@ -287,12 +287,15 @@ footer {
   z-index: 10;
 }
 #lead-down img {
-  position: relative;
-  bottom: -37px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
   width: 70px;
   height: 70px;
   border-radius: 50%;
   object-fit: contain;
+  z-index: 1;
 }
 #about {
   padding: 75px 15px;
