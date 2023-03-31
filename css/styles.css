@@ -286,19 +286,20 @@ footer {
 }
 #lead-down span {
   display: absolute;
-  top: -30px;
+  bottom: -30px;
   left: 50%;
   transform: translateX(-50%);
   width: 74px;
   height: 74px;
   border-radius: 50%;
-  border: 3px solid #00afb9;
+/*   border: 3px solid #00afb9; */
 }
 #lead-down img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
+  object-fit: contain;
 }
 #about {
   padding: 75px 15px;
