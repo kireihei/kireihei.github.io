@@ -235,7 +235,7 @@ footer {
   background: url(../images/lead-background.jpg);
   background-size: cover;
   padding: 15px;
-  overflow: hidden;
+  overflow: visible;
   z-index: 1;
 }
 #lead-content {
