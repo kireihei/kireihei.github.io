@@ -286,7 +286,7 @@ footer {
 }
 #lead-down-image-container {
   position: absolute;
-  bottom: -37px;
+  bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
   width: 74px;
@@ -296,13 +296,26 @@ footer {
   border: 3px solid #00afb9;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 #lead-down img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   object-fit: contain;
+}
+#lead-down::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fff transparent;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 #about {
   padding: 75px 15px;
