@@ -286,7 +286,7 @@ footer {
 }
 #lead-down span {
   position: absolute;
-  bottom: -30px;
+  bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
   width: 74px;
