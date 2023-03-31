@@ -235,6 +235,8 @@ footer {
   background: url(../images/lead-background.jpg);
   background-size: cover;
   padding: 15px;
+  overflow: hidden;
+  z-index: 1;
 }
 #lead-content {
   position: absolute;
@@ -294,11 +296,12 @@ footer {
   height: 70px;
   border-radius: 50%;
   object-fit: contain;
-  z-index: 10;
+  z-index: 1;
 }
 #about {
   padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
+  z-index: 0;
 }
 #about h2 {
   color: #374054;
