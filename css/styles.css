@@ -304,15 +304,15 @@ footer {
   border-radius: 50%;
   object-fit: contain;
 }
-#lead-down::after {
+#lead-down::before {
   content: "";
   position: absolute;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 15px 15px 15px;
-  border-color: transparent transparent #fff transparent;
-  bottom: -15px;
+  border-width: 15px 15px 0 15px;
+  border-color: #fff transparent transparent transparent;
+  bottom: -15px; /* Set the bottom property to a negative value to position the triangle outside the #lead-down element */
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
