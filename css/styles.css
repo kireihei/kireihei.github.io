@@ -476,6 +476,7 @@ footer {
   transform: translateY(-50%);
   margin-left: 29%;
   padding: 15px;
+  text-align: center;
 }
 .project-info h3 {
   font-size: 1.5em;
