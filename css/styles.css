@@ -453,7 +453,7 @@ footer {
   color: #374054;
   margin-bottom: 50px;
 }
-.project {
+.journal {
   display: flex;
   position: relative;
   max-width: 900px;
@@ -462,34 +462,35 @@ footer {
   background: #fff;
   border-radius: 4px;
 }
-.project-image {
+.journal-image {
   width: 28%;
   overflow: hidden;
 }
-.project-image img {
+.journal-image img {
   max-width:100%;
   height:auto;
 }
-.project-info {
+.journal-info {
   margin-left: auto;
   padding: 15px;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.project-info h3 {
+.journal-info h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
 }
-.project-info p {
+.journal-info p {
   color: #74808a;
   margin: 0 0 15px 0;
   font-size: 0.9em;
 }
-.no-image .project-info {
+.no-image .journal-info {
   position: relative;
   margin: 0;
   padding: 30px 15px;
@@ -757,7 +758,7 @@ footer {
   .education-block span {
     float: none;
   }
-  .project-info {
+  .journal-info {
     position: relative;
     margin: 0;
     padding: 30px 15px;
