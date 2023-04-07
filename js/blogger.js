@@ -10,7 +10,7 @@ async function fetchLatestPost() {
     const post = data.items[0];
     const postElement = document.createElement("div");
 
-    const title = document.createElement("h2");
+    const title = document.createElement("h3");
     title.innerHTML = post.title;
     postElement.appendChild(title);
 
@@ -25,6 +25,14 @@ async function fetchLatestPost() {
       content.innerHTML = post.content;
     }
     postElement.appendChild(content);
+    
+    // Add hyperlink to Blogger
+    const link = document.createElement();
+    link.href = "https://kireihei.blogspot.com";
+    const heading = document.createElement("h3");
+    heading.textContent = "Google Blogger";
+    link.appendChild(heading);
+    postElement.appendChild(link);
 
     document.getElementById("latest-post").appendChild(postElement);
   } else {
