@@ -474,6 +474,9 @@ footer {
 .journal-image {
   width: 28%;
 }
+.journal-image iframe {
+  max-height: 100%;
+}
 .journal-image img {
   width:100%;
   height:100%;
