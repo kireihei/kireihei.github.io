@@ -505,13 +505,13 @@ footer {
 .journal-info p {
   color: #74808a;
   margin: 0 0 5px 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .journal-info div {
   text-align: justify;
   color: #74808a;
   margin: 0 0 10px 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 .no-image .journal-info {
   position: relative;
