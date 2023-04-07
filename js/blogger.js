@@ -14,12 +14,12 @@ async function fetchLatestPost() {
     title.innerHTML = post.title;
     postElement.appendChild(title);
 
-    // Limit the content to 400 words
+    // Limit the content to 120 words
     const content = document.createElement("div");
     const contentText = post.content.replace(/<\/?[^>]+(>|$)/g, "");
     const contentWords = contentText.split(/\s+/);
-    if (contentWords.length > 400) {
-      contentWords.splice(400, contentWords.length - 400);
+    if (contentWords.length > 120) {
+      contentWords.splice(120, contentWords.length - 120);
       content.innerHTML = contentWords.join(" ") + " ...";
     } else {
       content.innerHTML = post.content;
