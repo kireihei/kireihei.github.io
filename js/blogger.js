@@ -30,14 +30,14 @@ async function fetchLatestPost() {
     const link = document.createElement("a");
     link.href = `https://kireihei.blogspot.com/`;
     link.innerHTML = "<h3>Google Blogger</h3>";
-    link.style.color = "#00afb9";
-    link.style.textDecoration = "underline";
+    link.style.color = "#00afb9"; // sets the color of the link to #00afb9
+    link.style.textDecoration = "underline"; // underlines the link
     link.style.transition = "color 0.3s ease-in-out"; // adds a transition effect to the color change
     link.addEventListener("mouseover", () => {
-      link.style.color = "#9800b8"; // sets the color of the link to red on hover
+      link.style.color = "blue"; // sets the color of the link to red on hover
     });
     link.addEventListener("mouseout", () => {
-      link.style.color = "#00afb9"; // sets the color of the link back to blue when the mouse leaves the link
+      link.style.color = "#00afb9"; // sets the color of the link back to #00afb9 when the mouse leaves the link
     });
     postElement.appendChild(link);
 
