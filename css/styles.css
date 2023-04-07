@@ -490,6 +490,8 @@ footer {
   justify-content: center;
 }
 #latest-post {
+  margin-left: auto;
+  padding: 15px;
   text-align: center;
   display: flex;
   flex-direction: column;
