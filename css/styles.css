@@ -459,6 +459,7 @@ footer {
 }
 .journal-block-link:hover .journal{
   background-color: lightgray;
+  text-decoration: none;
 }
 .journal {
   display: flex;
