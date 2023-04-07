@@ -31,6 +31,7 @@ async function fetchLatestPost() {
     link.href = `https://kireihei.blogspot.com/`;
     link.innerHTML = "<p style='font-size: 1.3em; color: #00afb9;'>Google Blogger</p>";
     link.style.color = "#00afb9"; // sets the color of the link to #00afb9
+    link.style.textDecoration = "none";
     postElement.appendChild(link);
 
     document.getElementById("latest-post").appendChild(postElement);
