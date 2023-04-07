@@ -1,4 +1,3 @@
-<script>
   const apiKey = "YOUR_API_KEY";
   const blogId = "YOUR_BLOG_ID";
 
@@ -26,4 +25,3 @@
   }
 
   fetchLatestPost();
-</script>
