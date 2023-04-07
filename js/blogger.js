@@ -10,7 +10,7 @@
       const post = data.items[0];
       const postElement = document.createElement("div");
 
-      const title = document.createElement("h2");
+      const title = document.createElement("h3");
       title.innerHTML = post.title;
       postElement.appendChild(title);
 
