@@ -456,10 +456,10 @@ footer {
 .journal-block-link .journal{
   background-color: #fff;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 .journal-block-link:hover .journal{
   background-color: lightgray;
-  text-decoration: none;
 }
 .journal {
   display: flex;
