@@ -27,10 +27,11 @@ async function fetchLatestPost() {
     postElement.appendChild(content);
     
     // Add hyperlink to Blogger
-    const link = document.createElement();
-    link.href = "https://kireihei.blogspot.com";
+    const link = document.createElement("a");
+    link.href = `https://www.blogger.com/u/${blogId}`;
     const heading = document.createElement("h3");
-    heading.textContent = "Google Blogger";
+    const linkText = document.createTextNode("Google Blogger");
+    heading.appendChild(linkText);
     link.appendChild(heading);
     postElement.appendChild(link);
 
