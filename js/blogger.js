@@ -1,5 +1,5 @@
-  const apiKey = "AIzaSyCv7WBhGTDfNhRfPmh4DttQtvdKSOhb-rU";
-  const blogId = "6443783516671868516";
+const apiKey = "AIzaSyCv7WBhGTDfNhRfPmh4DttQtvdKSOhb-rU";
+const blogId = "6443783516671868516";
 
 async function fetchLatestPost() {
   const url = `https://www.googleapis.com/blogger/v3/blogs/${blogId}/posts?key=${apiKey}&maxResults=1`;
@@ -17,9 +17,9 @@ async function fetchLatestPost() {
     // Limit the content to 400 words
     const content = document.createElement("div");
     const contentText = post.content.replace(/<\/?[^>]+(>|$)/g, "");
-    const contentWords = contentText.split(" ");
+    const contentWords = contentText.split(/\s+/);
     if (contentWords.length > 400) {
-      contentWords.length = 400;
+      contentWords.splice(400, contentWords.length - 400);
       content.innerHTML = contentWords.join(" ") + " ...";
     } else {
       content.innerHTML = post.content;
