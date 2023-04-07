@@ -498,6 +498,23 @@ footer {
   align-items: center;
   justify-content: center;
 }
+#latest-post h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+  margin: 0 0 15px 0;
+}
+#latest-post p {
+  color: #74808a;
+  margin: 0 0 15px 0;
+  font-size: 0.9em;
+}
+#latest-post div {
+  text-align: justify;
+  color: #74808a;
+  margin: 0 0 15px 0;
+  font-size: 0.9em;
+}
 .journal-info h3 {
   font-size: 1.5em;
   font-weight: 300;
