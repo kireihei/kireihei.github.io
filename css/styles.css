@@ -473,7 +473,6 @@ footer {
 }
 .journal-image {
   width: 28%;
-  overflow: hidden;
 }
 .journal-image img {
   width:100%;
