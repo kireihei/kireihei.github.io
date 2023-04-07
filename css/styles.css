@@ -453,6 +453,13 @@ footer {
   color: #374054;
   margin-bottom: 50px;
 }
+.journal-block-link .journal{
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+.journal-block-link:hover .journal{
+  background-color: lightgray;
+}
 .journal {
   display: flex;
   position: relative;
