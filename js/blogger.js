@@ -1,5 +1,5 @@
-  const apiKey = "YOUR_API_KEY";
-  const blogId = "YOUR_BLOG_ID";
+  const apiKey = "AIzaSyCv7WBhGTDfNhRfPmh4DttQtvdKSOhb-rU";
+  const blogId = "6443783516671868516";
 
   async function fetchLatestPost() {
     const url = `https://www.googleapis.com/blogger/v3/blogs/${blogId}/posts?key=${apiKey}&maxResults=1`;
