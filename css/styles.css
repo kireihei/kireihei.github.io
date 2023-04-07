@@ -492,7 +492,7 @@ footer {
 #latest-post {
   margin-left: auto;
   padding: 15px;
-  text-align: center;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   align-items: center;
