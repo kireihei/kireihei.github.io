@@ -479,6 +479,15 @@ footer {
   align-items: center;
   justify-content: center;
 }
+#latest-post {
+  margin-left: auto;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .journal-info h3 {
   font-size: 1.5em;
   font-weight: 300;
