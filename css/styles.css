@@ -797,6 +797,17 @@ footer {
     text-align: center;
   }
 }
+#tiger {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    pointer-events: none; /* 让老虎不干扰鼠标事件 */
+    transition: transform 0.1s ease-out;
+    background-image: url('tiger.png'); /* 替换为老虎的图片路径 */
+    background-size: cover;
+}
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
     font-size: 1.5em;
