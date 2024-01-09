@@ -51,6 +51,11 @@
 	        const y = e.clientY + window.pageYOffset;
 	        tiger.style.transform = `translate(${x}px, ${y}px)`;
 	    });
+	    window.addEventListener("scroll", function () {
+	        const x = e.clientX + window.pageXOffset;
+	        const y = e.clientY + window.pageYOffset;
+	        tiger.style.transform = `translate(${x}px, ${y}px)`;
+	    });
 	});
 	</script>
 	<!-- End tiger cursor -->
