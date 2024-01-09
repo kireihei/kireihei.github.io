@@ -798,7 +798,7 @@ footer {
   }
 }
 #tiger {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     background-color: orange;
@@ -807,6 +807,7 @@ footer {
     transition: transform 0.1s ease-out;
     background-image: url('tiger.png'); /* 替换为老虎的图片路径 */
     background-size: cover;
+    z-index: 9999;
 }
 @media only screen and (max-width: 480px) {
   #lead-content h1 {
