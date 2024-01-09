@@ -47,8 +47,8 @@
 	document.addEventListener("DOMContentLoaded", function () {
 	    const tiger = document.getElementById("tiger");
 	    document.addEventListener("mousemove", function (e) {
-	        const x = e.clientX;
-	        const y = e.clientY;
+	        const x = e.clientX + window.pageXOffset;
+	        const y = e.clientY + window.pageYOffset;
 	        tiger.style.transform = `translate(${x}px, ${y}px)`;
 	    });
 	});
