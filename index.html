@@ -41,6 +41,19 @@
 	<!-- Google Blogger API -->
 	<script src="js/blogger.js"></script>
 	<!-- End Google Blogger API -->
+
+	<!-- Tiger cursor -->
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+	    const tiger = document.getElementById("tiger");
+	    document.addEventListener("mousemove", function (e) {
+	        const x = e.clientX;
+	        const y = e.clientY;
+	        tiger.style.transform = `translate(${x}px, ${y}px)`;
+	    });
+	});
+	</script>
+	<!-- End tiger cursor -->
 </head>
 
 <body>
