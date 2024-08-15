@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d');
 // 初始化游戏时添加键盘事件监听器
 document.addEventListener('keydown', function(event) {
     if (event.key === 'ArrowLeft' && player.x > 0) {
-        player.x -= 10;
+        player.x -= 30;
     } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
-        player.x += 10;
+        player.x += 30;
     }
 });
 
