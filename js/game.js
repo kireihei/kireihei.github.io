@@ -42,9 +42,9 @@ function updatePlayer() {
     // 添加键盘事件，控制玩家移动
     document.addEventListener('keydown', function(event) {
         if (event.key === 'ArrowLeft' && player.x > 0) {
-            player.x -= 10;
+            player.x -= 1;
         } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
-            player.x += 10;
+            player.x += 1;
         }
     });
 }
@@ -89,16 +89,16 @@ function gameLoop() {
 gameLoop();
 
 // 键盘事件处理
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'ArrowLeft' && player.x > 0) {
-        player.x -= 10;
-    } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
-        player.x += 10;
-    }
-});
+// document.addEventListener('keydown', function(event) {
+//     if (event.key === 'ArrowLeft' && player.x > 0) {
+//         player.x -= 10;
+//     } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
+//         player.x += 10;
+//     }
+// });
 
 // 触摸事件处理（适用于移动设备）
-canvas.addEventListener('touchmove', function(event) {
-    const touch = event.touches[0];
-    player.x = touch.clientX - player.width / 2;
-});
+// canvas.addEventListener('touchmove', function(event) {
+//     const touch = event.touches[0];
+//     player.x = touch.clientX - player.width / 2;
+// });
