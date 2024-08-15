@@ -1,6 +1,20 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
+// 初始化游戏时添加键盘事件监听器
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'ArrowLeft' && player.x > 0) {
+        player.x -= 10;
+    } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
+        player.x += 10;
+    }
+});
+
+function updatePlayer() {
+    // 不再在此处添加键盘事件监听器
+    // 保留其他逻辑或根据需要添加新的逻辑
+}
+
 // 设置画布尺寸
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -35,18 +49,6 @@ const enemy = {
 function drawEnemy() {
     ctx.fillStyle = enemy.color;
     ctx.fillRect(enemy.x, enemy.y, enemy.width, enemy.height);
-}
-
-// 更新玩家位置
-function updatePlayer() {
-    // 添加键盘事件，控制玩家移动
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'ArrowLeft' && player.x > 0) {
-            player.x -= 1;
-        } else if (event.key === 'ArrowRight' && player.x < canvas.width - player.width) {
-            player.x += 1;
-        }
-    });
 }
 
 // 更新敌人位置
