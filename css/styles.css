@@ -188,6 +188,15 @@ footer {
 .social a:hover {
   color: #00afb9;
 }
+#particles-js {  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+  z-index: -1;  
+  background-color: black;  
+}  
 .btn-rounded-white {
   display: inline-block;
   color: #fff;
