@@ -33,6 +33,7 @@
 </head>
 
 <body>
+    <div id="particles-js"></div>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -485,6 +486,45 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  
+    <script>  
+      particlesJS('particles-js', {  
+        "particles": {  
+          "number": {  
+            "value": 300  
+          },  
+          "color": {  
+            "value": ["#ff0000", "#00ff00", "#0000ff"]  
+          },  
+          "shape": {  
+            "type": "circle"  
+          },  
+          "size": {  
+            "value": 2  
+          },  
+          "move": {  
+            "enable": true,  
+            "speed": 1,  
+            "direction": "none",  
+            "random": true,  
+            "straight": false  
+          }  
+        },  
+        "interactivity": {  
+          "detect_on": "canvas",  
+          "events": {  
+            "onhover": {  
+              "enable": false  
+            },  
+            "onclick": {  
+              "enable": false  
+            },  
+            "resize": true  
+          }  
+        },  
+        "retina_detect": true  
+      });  
+    </script>
     <script src="js/scripts.min.js"></script>
 </body>
 
