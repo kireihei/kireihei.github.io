@@ -195,7 +195,7 @@ footer {
   width: 100%;  
   height: 100%;  
   z-index: -1;  
-  background-color: black;  
+  background-color: #ccffff;  
 }  
 .btn-rounded-white {
   display: inline-block;
